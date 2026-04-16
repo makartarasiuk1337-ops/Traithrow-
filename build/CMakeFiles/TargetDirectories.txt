@@ -1,0 +1,3 @@
+C:/Users/pozor/Documents/traithrow/build/CMakeFiles/traithrow.dir
+C:/Users/pozor/Documents/traithrow/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/pozor/Documents/traithrow/build/CMakeFiles/ZERO_CHECK.dir

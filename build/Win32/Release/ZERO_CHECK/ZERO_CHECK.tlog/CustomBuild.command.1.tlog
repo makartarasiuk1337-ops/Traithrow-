@@ -1,0 +1,10 @@
+^C:\USERS\POZOR\DOCUMENTS\TRAITHROW\BUILD\CMAKEFILES\4863745783064D439F50B65EF1D1A4D6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/pozor/Documents/traithrow -BC:/Users/pozor/Documents/traithrow/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/pozor/Documents/traithrow/build/traithrow.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
